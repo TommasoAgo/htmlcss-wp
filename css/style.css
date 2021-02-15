@@ -7,7 +7,6 @@
 
 img {
     width: 100%;
-    border-radius: 10px;
 }
 
 /* COMMON */
@@ -56,12 +55,13 @@ body {
 .banner {
     height: 500px;
     position: relative;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 .banner img {
     height: 100%;
     object-fit: cover;
-    border-radius: 10px;
 }
 
 .bannertext {
@@ -73,6 +73,10 @@ body {
     z-index: 1;
 }
 
+.bannertext h2 {
+    font-size: 28px;
+}
+
 .layover {
     width: 100%;
     height: 100%;
@@ -82,11 +86,12 @@ body {
     left: 0;
 }
 
-.banner, .layover {
-    border-radius: 10px;
-}
-
 /* MAIN */
+
+/* Common */
+main p {
+    color: #b7b7b7;
+}
 
 main {
     margin-top: 20px;
@@ -96,15 +101,12 @@ main {
 
 .firstrow {
     width: 100%;
-    height: 50px;
-    background-color: #abcfe7;
 }
 
 /* Second Row */
 
 .secondrow {
     width: 100%;
-    background-color: #0086ff;
 }
 
 .secondrow::after {
@@ -115,7 +117,6 @@ main {
 
 
 /* Columns */
-
 .col {
     float: left;
     background-color: #abcfe7;
@@ -131,6 +132,16 @@ main {
     width: 40%; 
     margin-left: 2%;
     margin-right: 2%;
+}
+
+/* Column Images */
+.imageblock {
+    height: 40%;
+    object-fit: cover;
+}
+
+.imageblock img {
+    height: 100%;
 }
 
 /* FOOTER */
