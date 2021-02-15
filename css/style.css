@@ -119,9 +119,10 @@ main {
 /* Columns */
 .col {
     float: left;
-    background-color: #abcfe7;
-    height: 460px;
     margin: 20px 0;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
 }
 
 .col-left, .col-right {
@@ -136,12 +137,14 @@ main {
 
 /* Column Images */
 .imageblock {
-    height: 40%;
-    object-fit: cover;
+    height: 200px;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 .imageblock img {
     height: 100%;
+    object-fit: cover;
 }
 
 /* FOOTER */
