@@ -109,7 +109,7 @@ main {
     width: 100%;
 }
 
-.secondrow::after {
+.clearfix::after {
     content: "";
     display: table;
     clear: both;
