@@ -126,11 +126,11 @@ main {
 }
 
 .col-left, .col-right {
-    width: 28%;
+    width: 23%;
 }
 
 .col-center {
-    width: 40%; 
+    width: 50%; 
     margin-left: 2%;
     margin-right: 2%;
 }
